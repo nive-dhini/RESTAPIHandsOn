@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Rest Assured\Workspace\RESTAPIHansOn\src\test\java\SanityClass.xml</span>
+                    <span>C:\Rest Assured\Workspace\RESTAPIHansOn\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="pk_spreeCommerce.GET_RetrieveACountry" class="method navigator-link" hash-for-method="getDefaultCountry">getDefaultCountry</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="pk_spreeCommerce.GET_GetDefaultCountry" class="method navigator-link" hash-for-method="getDefaultCountry">getDefaultCountry</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="pk_spreeCommerce.GET_GetDefaultCountry" class="method navigator-link" hash-for-method="getDefaultCountry">getDefaultCountry</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="pk_spreeCommerce.GET_RetrieveACountry" class="method navigator-link" hash-for-method="getDefaultCountry">getDefaultCountry</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -157,19 +157,19 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Rest Assured\Workspace\RESTAPIHansOn\src\test\java\SanityClass.xml</span>
+            <span class="header-content">C:\Rest Assured\Workspace\RESTAPIHansOn\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestSample&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;pk_spreeCommerce.GET_RetrieveACountry&quot;/&gt;
       &lt;class name=&quot;pk_spreeCommerce.GET_GetDefaultCountry&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- TestSample --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,7 +181,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">TestSample (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,16 +211,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getDefaultCountry')
 data.setCell(0, 2, 'pk_spreeCommerce.GET_RetrieveACountry')
-data.setCell(0, 3, 2611);
+data.setCell(0, 3, 6041);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'getDefaultCountry')
 data.setCell(1, 2, 'pk_spreeCommerce.GET_GetDefaultCountry')
-data.setCell(1, 3, 1081);
+data.setCell(1, 3, 1251);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -256,7 +256,7 @@ return data;
               <div class="chronological-class-name">pk_spreeCommerce.GET_GetDefaultCountry</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getDefaultCountry</span>
-                <span class="method-start">2615 ms</span>
+                <span class="method-start">6061 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

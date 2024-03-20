@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="Suite">
-  <test name="Test">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestSample">
     <classes>
       <class name="pk_spreeCommerce.GET_RetrieveACountry"/>
       <class name="pk_spreeCommerce.GET_GetDefaultCountry"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- TestSample -->
 </suite> <!-- Suite -->

@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-20T13:56:40 IST" name="Suite" finished-at="2024-03-20T13:56:43 IST" duration-ms="3725">
+  <suite started-at="2024-03-20T17:02:27 IST" name="Suite" finished-at="2024-03-20T17:02:35 IST" duration-ms="7401">
     <groups>
     </groups>
-    <test started-at="2024-03-20T13:56:40 IST" name="Test" finished-at="2024-03-20T13:56:43 IST" duration-ms="3725">
+    <test started-at="2024-03-20T17:02:27 IST" name="TestSample" finished-at="2024-03-20T17:02:35 IST" duration-ms="7401">
       <class name="pk_spreeCommerce.GET_RetrieveACountry">
-        <test-method signature="getDefaultCountry()[pri:0, instance:pk_spreeCommerce.GET_RetrieveACountry@2ef3eef9]" started-at="2024-03-20T13:56:40 IST" name="getDefaultCountry" finished-at="2024-03-20T13:56:42 IST" duration-ms="2611" status="PASS">
+        <test-method signature="getDefaultCountry()[pri:0, instance:pk_spreeCommerce.GET_RetrieveACountry@1ab3a8c8]" started-at="2024-03-20T17:02:27 IST" name="getDefaultCountry" finished-at="2024-03-20T17:02:33 IST" duration-ms="6041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDefaultCountry -->
       </class> <!-- pk_spreeCommerce.GET_RetrieveACountry -->
       <class name="pk_spreeCommerce.GET_GetDefaultCountry">
-        <test-method signature="getDefaultCountry()[pri:0, instance:pk_spreeCommerce.GET_GetDefaultCountry@7193666c]" started-at="2024-03-20T13:56:42 IST" name="getDefaultCountry" finished-at="2024-03-20T13:56:43 IST" duration-ms="1081" status="PASS">
+        <test-method signature="getDefaultCountry()[pri:0, instance:pk_spreeCommerce.GET_GetDefaultCountry@123ef382]" started-at="2024-03-20T17:02:33 IST" name="getDefaultCountry" finished-at="2024-03-20T17:02:35 IST" duration-ms="1251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDefaultCountry -->
       </class> <!-- pk_spreeCommerce.GET_GetDefaultCountry -->
-    </test> <!-- Test -->
+    </test> <!-- TestSample -->
   </suite> <!-- Suite -->
 </testng-results>
